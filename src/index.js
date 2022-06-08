@@ -34,5 +34,5 @@ app.get('/api/character/:character/random', (req, res) => {
 });
 
 app.listen(PORT, () => {
-	console.log('running on port 8000');
+	console.log(`server running on port ${PORT}`);
 });
